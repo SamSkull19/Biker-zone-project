@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Craze</title>
+
+    <!--Tailwind Css CDN-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        .poppins{
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="poppins">
+
+    <!--NAVBAR-->
+
+    <header class="bg-[#264653]">
+        <div class="navbar w-auto lg:w-[1170px] py-10 text-[#FFF] mx-auto flex justify-between items-center">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+                        <li class="text-xl"><a>Home</a></li>
+                        <li class="text-xl"><a>Shop</a></li>
+                        <li class="text-xl"><a>News</a></li>
+                        <li class="text-xl"><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-2xl">Bike Frost</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>News</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="">
+                <a class="btn btn-warning px-8 py-2">Login</a>
+            </div>
+        </div>
+
+
+        <!--Banner Section-->
+
+        <div class="hero w-auto lg:w-[1170px] py-10 text-[#FFF] mx-auto">
+            <div class="hero-content flex-col lg:flex-row-reverse lg:justify-between">
+              <img src="images/slider/bike2.png" class="max-w-sm lg:max-w-xl rounded-lg" />
+              <div class="mr-16">
+                <p class="text-base font-normal py-5">Computer-controlled digital transistorized with electronic advance</p>
+
+                <h1 class="text-5xl font-bold">Honda CBR 300R</h1>
+                <p class="text-base font-normal py-5">The Honda CBR300R is a popular entry-level sportbike renowned for its lightweight and agile design. Powered by a 286cc liquid-cooled, single-cylinder engine with a four-stroke, DOHC configuration, it strikes a balance between power and efficiency, making it suitable for both novice riders and urban commuting.</p>
+                <button class="btn btn-warning px-8">Purchase</button>
+              </div>
+            </div>
+          </div>
+
+        
+    </header>
+
+    <main>
+
+        <!-- Featured Bikes -->
+
+        <section class="w-auto lg:w-[1170px] my-16 text-[#000] mx-auto">
+            <div>
+                <h1 class="text-5xl font-semibold text-center py-3">Featured Bikes In This Year</h1>
+                <p class="text-sm font-semibold text-amber-400 text-center mb-16">Best bike collection</p>
+                
+            </div>
+            <div class="carousel rounded-box flex flex-col justify-center items-center lg:flex lg:justify-between lg:items-stretch lg:flex-row">
+                <div class="carousel-item">
+                  <img src="images/slider/bike1.png" alt="..." class="max-w-sm"/>
+                </div> 
+                <div class="carousel-item">
+                  <img src="images/slider/bike4.png" alt="..." class="max-w-sm"/>
+                </div> 
+                <div class="carousel-item max-w-lg">
+                  <img src="images/slider/bike3.png" alt="..." class="max-w-sm"/>
+                </div> 
+              </div>
+        </section>
+
+
+        <!-- latest News -->
+
+        <section class="w-auto lg:w-[1170px] my-16 text-[#000] mx-auto">
+            <div>
+                <h1 class="text-4xl lg:text-5xl font-semibold text-center py-3  mb-14">Latest News</h1>
+            </div>
+
+            <div class="flex flex-col justify-center items-center lg:items-stretch lg:ml-0 lg:flex lg:flex-row lg:justify-between">
+
+                <div class="card card-compact w-80 bg-base-100 shadow-2xl mb-6">
+                    <figure><img src="images/others/latest1.png" alt="..." /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-2xl font-semibold">Ducati XDIAVEL S-73</h2>
+                      <p class="text-base font-normal mb-1">Designed for different purposes ranging from commuting to high-performance sport riding.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn btn-warning px-8">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card card-compact w-80 bg-base-100 shadow-2xl mb-6">
+                    <figure><img src="images/others/latest2.png" alt="..." /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-2xl font-semibold">Motorcycles & Scooters</h2>
+                      <p class="text-base font-normal mb-1">Cruiser motorcycles are known for their relaxed, laid-back riding positions and typically feature designs.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn btn-warning px-8">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="card card-compact w-80 bg-base-100 shadow-2xl mb-6">
+                    <figure><img src="images/others/latest3.png" alt="..." /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title text-2xl font-semibold">2021 Honda CBR500R</h2>
+                      <p class="text-base font-normal mb-1">Touring motorcycles are designed for long-distance travel, featuring comfortable seating.</p>
+                      <div class="card-actions justify-start">
+                        <button class="btn btn-warning px-8">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </section>
+
+
+        <!-- Happy Clients says -->
+
+        <section class="w-auto lg:w-[1170px] my-16 text-[#000] mx-auto">
+            <div>
+                <h1 class="text-4xl lg:text-5xl font-semibold text-center py-3  mb-14">Happy Clients says</h1>
+            </div>
+
+
+            <div class="flex flex-col justify-center items-center lg:flex lg:justify-between lg:flex-row lg:items-stretch">
+                <div class="card w-80 bg-base-100 shadow-2xl">
+                    <figure class="px-10 pt-10">
+                      <img src="images/others/user-1.png" alt="..." class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Adam Kinley</h2>
+                      <p>The Ducati Panigale V4 is a high-performance sportbike that exemplifies Italian engineering and style.</p>
+
+                      <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+
+                      <p>Banker</p>
+                    </div>
+                  </div>
+
+                  <div class="card w-80 bg-base-100 shadow-2xl">
+                    <figure class="px-10 pt-10">
+                      <img src="images/others/user-2.png" alt="..." class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Cary Flower</h2>
+                      <p>The Honda CB500X is a versatile adventure-touring motorcycle that strikes a balance between performance and practicality.</p>
+
+                      <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                      </div>
+
+                      <p>Artist</p>
+                    </div>
+                  </div>
+
+                  <div class="card w-80 bg-base-100 shadow-2xl">
+                    <figure class="px-10 pt-10">
+                      <img src="images/others/user-3.png" alt="..." class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Schrin Ren</h2>
+                      <p>The Harley-Davidson Street Glide is a classic touring cruiser that combines iconic American styling with modern comfort. </p>
+
+                      <div>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+
+                      <p>Lawyer</p>
+                    </div>
+                  </div>
+
+            </div>
+        </section>
+
+
+        <!-- Frequently Asked Questions Section -->
+
+        <section class="w-auto lg:w-[1170px] my-16 text-[#000] mx-auto">
+            <div>
+                <h1 class="text-4xl lg:text-5xl font-semibold text-center py-3  mb-14">Frequently Asked Questions</h1>
+            </div>
+
+            <div class="flex justify-center flex-col items-center lg:flex lg:flex-row lg:justify-between lg:items-stretch">
+                <div class="max-w-[300px] lg:max-w-[500px] mb-6">
+                    <img src="images/others/faq.png" alt="...">
+                </div>
+
+                <div class="max-w-[400px] lg:max-w-[600px]">
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            What are the most important things I should
+                            know about riding a bike?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p class="text-slate-400 text-base font-normal">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            How can I tell if my helmet is old and I need a 
+                            new one?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p class="text-slate-400 text-base font-normal">I have a reflective vest and additional visibility gear to enhance safety during night rides.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            My bike has been in storage is it safe to ride?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p class="text-slate-400 text-base font-normal">While I'm content with my current motorcycle, I may consider upgrading to a different style or model that aligns with my evolving riding preferences.</p>
+                        </div>
+                      </div>
+
+                      <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Are the interior padding and lining in good condition?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p class="text-slate-400 text-base font-normal">I possess a valid motorcycle license, and I completed a safety course to ensure I am well-versed in safe riding practices.</p>
+                        </div>
+                      </div>
+
+                      <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            Are you more inclined towards sport riding, touring, cruising, or off-road adventures?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p class="text-slate-400 text-base font-normal">I follow the manufacturer's recommended maintenance schedule and perform routine tasks like oil changes and chain adjustments as needed.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer class="bg-neutral">
+        <div class="w-auto lg:w-[1170px] text-[#000] mx-auto pb-4 pt-4">
+            <div class="footer p-10 bg-neutral text-neutral-content text-xl lg:flex justify-between items-center">
+                <div>
+                    <nav>
+                        <h6 class="mb-8">
+                            <a class="link link-hover mr-6">Download Now</a>
+                            <a class="link link-hover mr-6">License</a>
+                        </h6>
+                        <a class="link link-hover mr-6">Privacy Policy</a>
+                        <a class="link link-hover mr-6">Features</a>
+                        <a class="link link-hover mr-6">Pricing</a>
+                        <a class="link link-hover mr-6">Careers</a>
+                        <a class="link link-hover mr-6">Help</a>
+                        <a class="link link-hover mr-6">About</a>
+                      </nav> 
+                      <nav>
+                        <h6 class="mt-8">© 2020 bike. All rights reserved</h6> 
+                      </nav> 
+                </div>
+                <div>
+                  <h6 class="link link-hover">Get The App</h6> 
+                  <img src="images/others/android.png" alt="...">
+                  <img src="images/others/ios.png" alt="...">
+                </div>
+              </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
